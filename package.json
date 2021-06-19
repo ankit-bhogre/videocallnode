@@ -1,15 +1,16 @@
 {
-  "name": "group-video-final",
+  "name": "demo-video-calling-app",
   "version": "1.0.0",
+  "description": "This is the first video node apis app",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ankit-bhogre",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "socket.io": "^2.3.0"
-  },
-  "scripts": {
-    "start": "PROD=true node server.js",
-    "postinstall": "cd ./client && yarn"
   }
 }
